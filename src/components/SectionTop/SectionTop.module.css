@@ -1,0 +1,6 @@
+.sectionTop {
+  width              : 100%;
+  background-color: rgba(0, 4, 5, 0.2);
+  background-size    : contain;
+  background-position: center;
+}

@@ -1,0 +1,113 @@
+.coursesPage{
+    min-height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.coursesCategory{
+    background-color: rgba(154, 50, 171, 1);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    min-height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    color: #eeeeee;
+}
+
+.coursesList {
+    background-image: url(../../../assets/img/email-pattern.png);
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    min-height: 200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 50px;
+    margin: 10px;
+}
+.coursePreview{
+
+}
+
+.coursesItem{
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(152, 148, 148, .7);
+    margin: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.coursesItem img{
+    height: 250px;
+    width: 400px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.coursesDescription div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coursesDescription div:first-child{
+    font-size: 36px;
+}
+
+.categoryList{
+    padding: 0;
+    text-align: center;
+}
+
+.categoryItem{
+    list-style-type: none;
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+
+}
+
+.categoryItem a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.categoryItem a:hover{
+    color: rgb(184, 134, 11);
+}
+
+.categoryItem a:active{
+    color: rgb(173, 255, 47);
+}
+
+.categoryItem .active{
+    color: rgb(255, 215, 0);
+}
+
+.startLink{
+    display: flex;
+    justify-content: center;
+    transition: all .5s;
+    width: 220px;
+    color: #eeeeee;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgb(255, 127, 80);
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.startLink:hover{
+    background-color: rgb(173, 255, 47);
+}
+
+.startLink:active{
+    transform: rotate(360grad);
+}

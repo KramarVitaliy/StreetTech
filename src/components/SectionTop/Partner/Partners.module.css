@@ -1,0 +1,58 @@
+.partnerPage{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.partnerItem{
+    width: 450px;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.partnerTitle{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+
+.partnerTitle img{
+    width: 200px;
+}
+
+.partnerLabel{
+    padding: 20px;
+}
+
+.partnerDescription{
+    padding: 10px;
+    text-align: justify;
+}
+
+.partnerDescription div{
+    padding: 10px;
+}
+
+.partnerDescription a{
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.partnerDescription button{
+    background-color: greenyellow;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    outline: none;
+}
+
+.partnerDescription button:active{
+    transform: scale(1.2);
+}

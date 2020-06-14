@@ -27,14 +27,14 @@ const SectionTop = function (props) {
         <div className={s.sectionTop}>
             <Header coursesData={props.coursesData} setSearchData={setSearchData}/>
             <NavBar stateLogin={stateLogin} userName={userData.login}/>
-            <Route exact path="/StreetTech" render={() => <Main state={props.state}/>}/>
-            <Route path="/StreetTech/main" render={() => <Main state={props.state}/>}/>
-            <Route path="/StreetTech/courses" render={() => <Courses state={props.state} searchData={searchData} coursesData={props.coursesData} userData={userData} stateLogin={stateLogin}/>}/>
-            <Route path="/StreetTech/partners" render={() => <Partners state={props.state}/>}/>
-            <Route path="/StreetTech/about_us" render={() => <AboutUs state={props.state}/>}/>
-            <Route path="/StreetTech/entry" render={() => <Entry stateLogin={stateLogin} usersData={props.usersData} userLog={userLog} usersLogin={props.usersLogin}/>}/>
-            <Route path="/StreetTech/registration" render={() => <Registration usersData={props.usersData} userLog={userLog} usersLogin={props.usersLogin}/>}/>
-            <Route path="/StreetTech/cabinet" render={() => <ProfilePage userData={userData} setUserData={setUserData} stateLogin={stateLogin} setStateLogin={setStateLogin}/>}/>
+            <Route exact path="/StreetTech/" render={() => <Main state={props.state}/>}/>
+            <Route path="/StreetTech/main/" render={() => <Main state={props.state}/>}/>
+            <Route path="/StreetTech/courses/" render={() => <Courses state={props.state} searchData={searchData} coursesData={props.coursesData} userData={userData} stateLogin={stateLogin}/>}/>
+            <Route path="/StreetTech/partners/" render={() => <Partners state={props.state}/>}/>
+            <Route path="/StreetTech/about_us/" render={() => <AboutUs state={props.state}/>}/>
+            <Route path="/StreetTech/entry/" render={() => <Entry stateLogin={stateLogin} usersData={props.usersData} userLog={userLog} usersLogin={props.usersLogin}/>}/>
+            <Route path="/StreetTech/registration/" render={() => <Registration usersData={props.usersData} userLog={userLog} usersLogin={props.usersLogin}/>}/>
+            <Route path="/StreetTech/cabinet/" render={() => <ProfilePage userData={userData} setUserData={setUserData} stateLogin={stateLogin} setStateLogin={setStateLogin}/>}/>
 
         </div>
     );

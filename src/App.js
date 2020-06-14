@@ -9,7 +9,13 @@ import Footer from "./components/Footer/Footer";
 const App = function(props) {
   return (
     <div className={styles.app}>
-      <SectionTop state={props.state} coursesDisplay={props.coursesDisplay}/>
+      <SectionTop
+          state={props.state}
+          coursesDisplay={props.coursesDisplay}
+          usersLogin={props.usersLogin}
+          usersData={props.usersData}
+          coursesData={props.coursesData}
+      />
       <Footer/>
     </div>
   );

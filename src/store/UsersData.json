@@ -1,0 +1,20 @@
+[
+  {
+    "login": "Sad_Balu",
+    "password": "5689",
+    "name": "Віталій",
+    "surname": "Крамаренко",
+    "aboutMe": "Навчаюсь в Національному педагогічному університеті імені М.П.Драгоманова на факультеті інформатики.",
+    "avatar": "https://nichteros.github.io/StreetTechImage/img/avatar/VitaliyKramar.jpg",
+    "activeCourse" : []
+  },
+  {
+    "login": "Elina",
+    "password": "12345",
+    "name": "Еліна",
+    "surname": "Равлюк",
+    "aboutMe": "Навчаюсь в Національному педагогічному університеті імені М.П.Драгоманова на фізико-математичному факультеті.",
+    "avatar": "https://nichteros.github.io/StreetTechImage/img/avatar/ElinaRavliuk.jpg",
+    "activeCourse" : []
+  }
+]

@@ -1,0 +1,71 @@
+.entryForm{
+  margin: 0;
+  padding: 40px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 500px;
+  padding: 40px;
+  background-color: rgba(242, 236, 236, 1);
+  text-align: center;
+  border-radius: 20px;
+}
+.box h1{
+  color: rgba(154, 50, 171, 1);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: #504b4b;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #dbd2d2;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.entryButton{
+  border:0;
+  background: #524f4f;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+
+  border-radius: 30px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.entryButton:hover{
+  background: #2ecc71;
+}
+.box a{
+  color: rgba(154, 50, 171, 1);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.entryButton a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.wrongData{
+  color: #920000;
+}
+

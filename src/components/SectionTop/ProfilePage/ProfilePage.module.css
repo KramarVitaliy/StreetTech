@@ -1,0 +1,82 @@
+.profilePage{
+    padding: 40px 0;
+}
+
+.profile{
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    width: 800px;
+    background: #dcd5d5;
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+.label{
+    padding: 10px;
+    font-size: 36px;
+    color: #9A32AB;
+    text-align: center;
+}
+
+.profileMain{
+    display: flex;
+}
+
+.personalData{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.personalData div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.aboutMe{
+    padding: 10px;
+}
+
+.avatar{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.avatar img{
+    width: 150px;
+    height: 200px;
+}
+
+.profile a{
+    text-decoration: none;
+}
+
+.exitButton{
+    border:0;
+    font-size: 24px;
+    background: #524f4f;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #cc2e2e;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.exitButton:hover{
+    background: #cc2e2e;
+}
+
+.wrongData{
+    padding: 40px;
+    color: red;
+}

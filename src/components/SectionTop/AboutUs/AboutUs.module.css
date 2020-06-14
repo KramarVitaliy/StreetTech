@@ -1,4 +1,4 @@
-.partnerPage{
+.aboutUsPage{
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
@@ -6,8 +6,8 @@
 
 }
 
-.partnerItem{
-    width: 450px;
+.aboutUsItem{
+    width: 600px;
     background-color: rgb(245, 245, 245);
     padding: 10px;
     border-radius: 20px;
@@ -15,36 +15,36 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.partnerTitle{
+.aboutUsTitle{
     display: flex;
     align-items: center;
     font-size: 36px;
 }
 
-.partnerTitle img{
+.aboutUsTitle img{
     width: 200px;
 }
 
-.partnerLabel{
+.aboutUsLabel{
     padding: 20px;
 }
 
-.partnerDescription{
+.aboutUsDescription{
     padding: 10px;
     text-align: justify;
 }
 
-.partnerDescription div{
+.aboutUsDescription div{
     padding: 10px;
 }
 
-.partnerDescription a{
+.aboutUsDescription a{
     padding: 20px;
     text-decoration: none;
 
 }
 
-.partnerDescription button{
+.aboutUsDescription button{
     background-color: greenyellow;
     height: 30px;
     border: none;
@@ -54,6 +54,6 @@
     outline: none;
 }
 
-.partnerDescription button:active{
+.aboutUsDescription button:active{
     transform: scale(1.2);
 }

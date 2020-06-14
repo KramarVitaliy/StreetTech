@@ -11,6 +11,8 @@ import NavItem from './NavItem/NavItem';
 
 const NavBar = function (props) {
 
+
+
     let pgFirstIcon = () => <HomeTwoToneIcon fontSize="large"></HomeTwoToneIcon>;
     let pgTwoIcon = () => <LibraryBooksTwoToneIcon fontSize="large"></LibraryBooksTwoToneIcon>;
     let pgThreeIcon = () => <CardTravelTwoToneIcon fontSize="large"></CardTravelTwoToneIcon>;
@@ -22,8 +24,15 @@ const NavBar = function (props) {
             <NavItem to="/main/" icon={pgFirstIcon} text="Головна"/>
             <NavItem to="/courses/" icon={pgTwoIcon} text="Курси"/>
             <NavItem to="/partners/" icon={pgThreeIcon} text="Партнери"/>
-            <NavItem to="/about-us/" icon={pgFourIcon} text="Про нас"/>
-            <NavItem to="/registration/" icon={pgFiveIcon} text="Реєстрація"/>
+            <NavItem to="/about_us/" icon={pgFourIcon} text="Про нас"/>
+
+            { props.stateLogin === "notLogin" &&
+                <NavItem to="/entry/" icon={pgFiveIcon} text="Реєстрація/Вхід"/>
+            }
+            { props.stateLogin === "login" &&
+            <NavItem to="/cabinet/" icon={pgFiveIcon} text={props.userName}/>
+            }
+
 
         </nav>
     );

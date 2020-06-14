@@ -32,9 +32,9 @@ const Entry = function (props) {
                                e.preventDefault();
 
                            }}>
-                        <NavLink to="/StreetTech/cabinet/">ВХІД</NavLink>
+                        <NavLink to="/StreetTech/cabinet">ВХІД</NavLink>
                     </button>
-                <div><NavLink to="/StreetTech/registration/">Реєстрація</NavLink></div>
+                <div><NavLink to="/StreetTech/registration">Реєстрація</NavLink></div>
             </form>
         </div>
     );

@@ -20,7 +20,7 @@ const Registration = function (props) {
                     Зареєструватися
                 </button>
                 <div className={styles.entry}>
-                    <NavLink to="/entry/">Ввійти</NavLink>
+                    <NavLink to="/entry">Ввійти</NavLink>
                 </div>
             </form>
         </div>

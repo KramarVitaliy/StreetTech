@@ -30,7 +30,7 @@ export const CoursesItem = function (props) {
                 }
                 {props.stateLogin === "notLogin" &&
                 <button className={styles.startCourse}>
-                    <NavLink to="/StreetTech/entry/">Реєстрація/Вхід</NavLink>
+                    <NavLink to="/StreetTech/entry">Реєстрація/Вхід</NavLink>
                 </button>
                 }
 

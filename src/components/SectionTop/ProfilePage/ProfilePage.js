@@ -36,7 +36,7 @@ const ProfilePage = function (props) {
                 </div>
                 <div className={styles.aboutMe}>Про мене: {props.userData.aboutMe}</div>
                 <div className={styles.aboutMe}>Підписаний(а) на курси: {coursesListing()}</div>
-                <NavLink to="/StreetTech/entry/">
+                <NavLink to="/StreetTech/entry">
                     <button className={styles.exitButton} onClick={changeUserData}>Exit</button>
                 </NavLink>
             </div>

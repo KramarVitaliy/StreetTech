@@ -31,9 +31,9 @@ const Entry = function (props) {
                                }
 
                            }}>
-                        <NavLink to="/cabinet/">ВХІД</NavLink>
+                        <NavLink to="/StreetTech/cabinet/">ВХІД</NavLink>
                     </button>
-                <div><NavLink to="/registration/">Реєстрація</NavLink></div>
+                <div><NavLink to="/StreetTech/registration/">Реєстрація</NavLink></div>
             </form>
         </div>
     );

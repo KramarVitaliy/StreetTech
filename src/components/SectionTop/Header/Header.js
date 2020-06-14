@@ -18,7 +18,7 @@ const Header = function (props) {
             </NavLink>
             <div className={styles.search}>
                 <input ref={search} type="search" name="search" id="search" placeholder="Знайди свій курс..."/>
-                <button onClick={findCourse}><NavLink to="/courses/search_courses"><PageviewIcon fontSize="large"></PageviewIcon></NavLink></button>
+                <button onClick={findCourse}><NavLink to="/StreetTech/courses/search_courses"><PageviewIcon fontSize="large"></PageviewIcon></NavLink></button>
             </div>
         </header>
     );

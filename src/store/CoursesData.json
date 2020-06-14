@@ -3,7 +3,7 @@
     "Courses" : [
       {
         "id": 1,
-        "path": "/courses/front_end/html_css_coder",
+        "path": "/StreetTech/courses/front_end/html_css_coder",
         "label": "HTML/CSS coder",
         "preview": "https://nichteros.github.io/StreetTechImage/img/preview/HTML_CSS_coder.jpg",
         "description": "Курс для тих хто розпочинає свій шлях в напрямі FrontEnd",
@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "path": "/courses/front_end/java_script",
+        "path": "/StreetTech/courses/front_end/java_script",
         "label": "JavaScript",
         "preview": "https://nichteros.github.io/StreetTechImage/img/preview/javascript.jpg",
         "description": "For litle programer",
@@ -23,7 +23,7 @@
     "Courses" : [
       {
         "id": 3,
-        "path": "/courses/back_end/python",
+        "path": "/StreetTech/courses/back_end/python",
         "label": "Python",
         "preview": "https://nichteros.github.io/StreetTechImage/img/preview/python.jpg",
         "description": "Python/BackEnd",
@@ -35,7 +35,7 @@
     "Courses": [
       {
         "id": 4,
-        "path": "/courses/oop/java_oop",
+        "path": "/StreetTech/courses/oop/java_oop",
         "label": "Java OOP",
         "preview": "https://nichteros.github.io/StreetTechImage/img/preview/Java.jpg",
         "description": "Java OOP course",
@@ -47,7 +47,7 @@
     "Courses": [
       {
         "id": 5,
-        "path": "/courses/web_design/figma_essential",
+        "path": "/StreetTech/courses/web_design/figma_essential",
         "label": "Figma Essential",
         "preview": "https://nichteros.github.io/StreetTechImage/img/preview/Figma_Essential.jpg",
         "description": "Короткий курс по створенню макетів в безкоштовному редакторі Figma",

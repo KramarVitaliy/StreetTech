@@ -21,16 +21,16 @@ const NavBar = function (props) {
 
     return (
         <nav className={styles.pageNavigation}>
-            <NavItem to="/main/" icon={pgFirstIcon} text="Головна"/>
-            <NavItem to="/courses/" icon={pgTwoIcon} text="Курси"/>
-            <NavItem to="/partners/" icon={pgThreeIcon} text="Партнери"/>
-            <NavItem to="/about_us/" icon={pgFourIcon} text="Про нас"/>
+            <NavItem to="/StreetTech/main/" icon={pgFirstIcon} text="Головна"/>
+            <NavItem to="/StreetTech/courses/" icon={pgTwoIcon} text="Курси"/>
+            <NavItem to="/StreetTech/partners/" icon={pgThreeIcon} text="Партнери"/>
+            <NavItem to="/StreetTech/about_us/" icon={pgFourIcon} text="Про нас"/>
 
             { props.stateLogin === "notLogin" &&
-                <NavItem to="/entry/" icon={pgFiveIcon} text="Реєстрація/Вхід"/>
+                <NavItem to="/StreetTech/entry/" icon={pgFiveIcon} text="Реєстрація/Вхід"/>
             }
             { props.stateLogin === "login" &&
-            <NavItem to="/cabinet/" icon={pgFiveIcon} text={props.userName}/>
+            <NavItem to="/StreetTech/cabinet/" icon={pgFiveIcon} text={props.userName}/>
             }
 
 

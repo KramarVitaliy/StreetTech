@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3700a4d94e7129d2d091ce6ab3558268",
+    "revision": "73188ae3c8c9390279902dffe71ec4c9",
     "url": "/StreetTech/index.html"
   },
   {
-    "revision": "88e2adf805b9ecf51761",
+    "revision": "a7aeeb7bca285507026b",
     "url": "/StreetTech/static/css/main.b2d887a4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StreetTech/static/js/2.337ef365.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "88e2adf805b9ecf51761",
-    "url": "/StreetTech/static/js/main.1b452059.chunk.js"
+    "revision": "a7aeeb7bca285507026b",
+    "url": "/StreetTech/static/js/main.4d0cb411.chunk.js"
   },
   {
     "revision": "b297e9043376b270c1c8",

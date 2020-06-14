@@ -27,7 +27,7 @@ const SectionTop = function (props) {
         <div className={s.sectionTop}>
             <Header coursesData={props.coursesData} setSearchData={setSearchData}/>
             <NavBar stateLogin={stateLogin} userName={userData.login}/>
-            <Route exact path="/StreetTech/" render={() => <Main state={props.state}/>}/>
+            <Route exact path="/" render={() => <Main state={props.state}/>}/>
             <Route path="/main" render={() => <Main state={props.state}/>}/>
             <Route path="/courses" render={() => <Courses state={props.state} searchData={searchData} coursesData={props.coursesData} userData={userData} stateLogin={stateLogin}/>}/>
             <Route path="/partners" render={() => <Partners state={props.state}/>}/>

@@ -22,7 +22,7 @@ const NavBar = function (props) {
     return (
         <nav className={styles.pageNavigation}>
             <NavItem to="/StreetTech/main/" icon={pgFirstIcon} text="Головна"/>
-            <NavItem to="StreetTech/courses/" icon={pgTwoIcon} text="Курси"/>
+            <NavItem to="/StreetTech/courses/" icon={pgTwoIcon} text="Курси"/>
             <NavItem to="/StreetTech/partners/" icon={pgThreeIcon} text="Партнери"/>
             <NavItem to="/StreetTech/about_us/" icon={pgFourIcon} text="Про нас"/>
 

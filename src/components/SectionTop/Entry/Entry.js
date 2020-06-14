@@ -26,9 +26,10 @@ const Entry = function (props) {
 
                                    if (user === false) {
                                        setStateCorrectData(false);
-                                       e.preventDefault();
+
                                    }
                                }
+                               e.preventDefault();
 
                            }}>
                         <NavLink to="/StreetTech/cabinet/">ВХІД</NavLink>

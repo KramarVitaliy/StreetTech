@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/StreetTech/static/css/main.b2d887a4.chunk.css",
-    "main.js": "/StreetTech/static/js/main.21a7dde4.chunk.js",
-    "main.js.map": "/StreetTech/static/js/main.21a7dde4.chunk.js.map",
+    "main.js": "/StreetTech/static/js/main.b6246781.chunk.js",
+    "main.js.map": "/StreetTech/static/js/main.b6246781.chunk.js.map",
     "runtime-main.js": "/StreetTech/static/js/runtime-main.a67ad949.js",
     "runtime-main.js.map": "/StreetTech/static/js/runtime-main.a67ad949.js.map",
     "static/js/2.337ef365.chunk.js": "/StreetTech/static/js/2.337ef365.chunk.js",
     "static/js/2.337ef365.chunk.js.map": "/StreetTech/static/js/2.337ef365.chunk.js.map",
     "index.html": "/StreetTech/index.html",
-    "precache-manifest.91773de8d674397f6431843dd4ae0ea9.js": "/StreetTech/precache-manifest.91773de8d674397f6431843dd4ae0ea9.js",
+    "precache-manifest.d3716a6de0ab8d8206c76627a4e99dfc.js": "/StreetTech/precache-manifest.d3716a6de0ab8d8206c76627a4e99dfc.js",
     "service-worker.js": "/StreetTech/service-worker.js",
     "static/css/main.b2d887a4.chunk.css.map": "/StreetTech/static/css/main.b2d887a4.chunk.css.map",
     "static/js/2.337ef365.chunk.js.LICENSE.txt": "/StreetTech/static/js/2.337ef365.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.a67ad949.js",
     "static/js/2.337ef365.chunk.js",
     "static/css/main.b2d887a4.chunk.css",
-    "static/js/main.21a7dde4.chunk.js"
+    "static/js/main.b6246781.chunk.js"
   ]
 }

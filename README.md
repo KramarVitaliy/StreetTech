@@ -1,2 +1,2 @@
 StreetTach learning platform
-[Demo](https://nichteros.github.io/StreetTech/)
+[Demo](https://kramarvitaliy.github.io/StreetTech/)

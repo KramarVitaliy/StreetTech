@@ -5,7 +5,7 @@
         "id": 1,
         "path": "/StreetTech/courses/front_end/html_css_coder",
         "label": "HTML/CSS coder",
-        "preview": "https://kramarvitaliy.github.io/StreetTechImage/img/preview/HTML_CSS_coder.jpg",
+        "preview": "https://github.com/KramarVitaliy/StreetTechImage/tree/master/img/preview/HTML_CSS_coder.jpg",
         "description": "Курс для тих хто розпочинає свій шлях в напрямі FrontEnd",
         "technologie": "HTML/CSS"
       },
@@ -25,7 +25,7 @@
         "id": 3,
         "path": "/StreetTech/courses/back_end/python",
         "label": "Python",
-        "preview": "https://kramarvitaliy.github.io/StreetTechImage/img/preview/python.jpg",
+        "preview": "https://github.com/KramarVitaliy/StreetTechImage/tree/master/img/preview/python.jpg",
         "description": "Python/BackEnd",
         "technologie": "Python"
       }
@@ -37,7 +37,7 @@
         "id": 4,
         "path": "/StreetTech/courses/oop/java_oop",
         "label": "Java OOP",
-        "preview": "https://kramarvitaliy.github.io/StreetTechImage/img/preview/Java.jpg",
+        "preview": "https://github.com/KramarVitaliy/StreetTechImage/tree/master/img/preview/Java.jpg",
         "description": "Java OOP course",
         "technologie": "Java"
       }
@@ -49,7 +49,7 @@
         "id": 5,
         "path": "/StreetTech/courses/web_design/figma_essential",
         "label": "Figma Essential",
-        "preview": "https://kramarvitaliy.github.io/StreetTechImage/img/preview/Figma_Essential.jpg",
+        "preview": "https://github.com/KramarVitaliy/StreetTechImage/tree/master/img/preview/Figma_Essential.jpg",
         "description": "Короткий курс по створенню макетів в безкоштовному редакторі Figma",
         "technologie": "Figma"
       }
